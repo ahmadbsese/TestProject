@@ -2,6 +2,10 @@ package TestProject;
 
 import java.util.ArrayList;
 
+/**
+ * @author hamza
+ *
+ */
 public class SharedData 
 {
 	ArrayList<Integer> array;
