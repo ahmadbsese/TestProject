@@ -67,7 +67,7 @@ public class SharedData
 
 	/**
 	 * @param flag
-	 * boolean function which set the flag when the threads reset it to 0 or 1
+	 * boolean function which set the flag when the threads reset it to 0 or 1.
 	 */
 	public void setFlag(boolean flag) {
 		this.flag = flag;
