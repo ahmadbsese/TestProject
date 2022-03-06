@@ -30,16 +30,28 @@ public class SharedData
 		return array;
 	}
 
+	/**
+	 * @return
+	 * function which returns value of the parameter b
+	 */
 	public int getB() 
 	{
 		return b;
 	}
 
+	/**
+	 * @return
+	 * boolean function which return the flag
+	 */
 	public boolean getFlag() 
 	{
 		return flag;
 	}
 
+	/**
+	 * @param flag
+	 * boolean function which set the flag when the threads reset it to 0 or 1
+	 */
 	public void setFlag(boolean flag) {
 		this.flag = flag;
 	}
